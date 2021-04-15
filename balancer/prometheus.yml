@@ -9,13 +9,13 @@ scrape_configs:
 
   - job_name: 'server1'
     static_configs:
-      - targets: ['localhost:5555']
+      - targets: ['130.193.45.36:5555']
       
   - job_name: 'server2'
     static_configs:
-      - targets: ['localhost:5555']
+      - targets: ['84.201.181.233:5555']
       
   - job_name: 'server3'
     static_configs:
-      - targets: ['localhost:5555']
+      - targets: ['130.193.46.203:5555']
       
